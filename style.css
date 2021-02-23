@@ -1,20 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('href="https://egkoppel.github.io/product-sans/google-fonts.css');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Product Sans', sans-serif;
+}
+
+.logo{
+    width: 7%;
+    height: 7%;
+}
+
+.inf{
+    position: absolute;
+    width:25px;
+    height:25px;
+    right: 10px;
+}
+
+#title{
+    color: #313131;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+    position: absolute;
+    margin-left: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 html,body{
-    display: grid;
     height: 100%;
     place-items: center;
 }
 
 .wrapper{
-    width: 600px;
-    background: #fff;
+    margin-top: 100px;
+    width: 800px;
+    background: white;
     border-radius: 50px;
     border: 10px solid rgb(60 152 134);
 }
