@@ -96,9 +96,9 @@ html,body{
     position: relative;
 }
 
-.wrapper .typing-field .input-data input{
-    height: 100%;
-    width: 100%;
+.wrapper .typing-field .input-data #data{
+    height: 40px;
+    width: 400px;
     outline: none;
     border: 1px solid rgb(179 175 175);
     padding: 0 80px 0 15px;
@@ -108,23 +108,23 @@ html,body{
     transition: all 0.3s ease;
 }
 
-.typing-field .input-data input:focus{
+.typing-field .input-data #data:focus{
     border-color: rgba(0,123,255,0.8);
 }
 
-.input-data input::placeholder{
+.input-data #data::placeholder{
     color: #999999;
     transition: all 0.3s ease;
 }
 
-.input-data input:focus::placeholder{
+.input-data #data:focus::placeholder{
     color: #bfbfbf;
 }
 
-.wrapper .typing-field .input-data button{
+.wrapper .typing-field .input-data #send-btn{
     position: absolute;
     right: 5px;
-    top: 50%;
+    top: 46%;
     height: 30px;
     width: 65px;
     color: #fff;
@@ -140,10 +140,10 @@ html,body{
     transition: all 0.3s ease;
 }
 
-.wrapper .typing-field .input-data input:valid ~ button{
+.wrapper .typing-field .input-data #data:valid ~ #send-btn{
     opacity: 1;
     pointer-events: auto;
 }
-.typing-field .input-data button:hover{
+.typing-field .input-data #send-btn:hover{
     background: #006fef;
 }
