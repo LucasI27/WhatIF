@@ -9,29 +9,29 @@
 .header{
     background-color: rgb(170, 170, 170);
     width: 100%;
-    height: 13%;
+    height: 16%;
     top: 0px;
-    border-bottom-right-radius: 1pc;
-    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
     position: fixed;
 }
 
 .logo{
-    height: 90%;
+    height: 10vh;
     width: auto;
     position: absolute;
+    left: 3vh;
+    top: 3vh;
 }
 
 .inf{
-    position: absolute;
-    width:25px;
-    height:25px;
-    right: 10px;
+    width:2vw;
+    height:auto;
 }
 
 #title{
     color: #313131;
-    position: absolute;
+    
 }
 
 html,body{
@@ -40,11 +40,12 @@ html,body{
 }
 
 .wrapper{
-    margin-top: 100px;
-    width: 800px;
+    margin-top: 10%;
+    width: 80%;
     background: white;
-    border-radius: 50px;
-    border: 10px solid rgb(60 152 134);
+    border-radius: 3vw;
+    border: 1vh solid rgb(60 152 134);
+    position: fixed;
 }
 
 .wrapper .form{
