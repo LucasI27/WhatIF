@@ -33,8 +33,10 @@
         
         <div class="typing-field">
             <div class="input-data">
-                <input id="data" type="text" name="pergunta" placeholder="Pergunte algo sobre a instiruição" required>
-                <input id="send-btn" type="submit" value="Enviar" />
+                <form method="POST" action="message.php">
+                    <input id="data" type="text" name="pergunta" placeholder="Pergunte algo sobre a instiruição" required>
+                    <input id="send-btn" type="submit" value="Enviar" />
+                </form>
             </div>
         </div>   
     </div>
