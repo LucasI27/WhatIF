@@ -14,9 +14,6 @@ if(mysqli_num_rows($run_query) > 0){
     $replay = $fetch_data['replies'];
     echo $replay;
 
-}else if($_POST["data"] == "pergunta"){
-    echo "<img src='imgs/inf.png' width=320px height=260px />";
-
 }else{
     echo "Desculpa, não consigo entender, tente fazer uma pergunta mais simples.";
 }
