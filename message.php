@@ -1,7 +1,5 @@
 <?php
 
-echo $_POST["pergunta"];
-
 $conn = mysqli_connect("localhost", "root", "", "bot") or die("Database Error");
 
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
