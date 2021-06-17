@@ -11,7 +11,7 @@
 
 </head>
 <body>
-        <table class="header">
+        <table class="header" id="redirect">
             <th>
                 <td>
                     <img src="imgs/logo.png" alt="logo" class="logo">
@@ -45,7 +45,7 @@
 
     <div id= "modal">
         <div id = "creditos">
-            <h1 class="cor-titulo" id="titulo1"> Créditos: <a href=""> <button class="close" id="close"> &times; </button> </a></h1>
+            <h1 class="cor-titulo" id="titulo1"> Créditos: <a href="#redirect"> <button class="close" id="close"> &times; </button> </a></h1>
             <div id = "conteudo-left">     
                 <dl>
                     <dd> Bruno Malheiros </dd>
