@@ -44,26 +44,28 @@
 
 
     <div id= "modal">
-        <div id = "creditos">
-            <h1 class="cor-titulo" id="titulo1"> Créditos: <a href="#redirect"> <button class="close" id="close"> &times; </button> </a></h1>
-            <div id = "conteudo-left">     
-                <dl>
-                    <dd> Bruno Malheiros </dd>
-                    <dd> Daniel Alves </dd>
-                    <dd> Emanuelly Maurício </dd>
-                    <dd> Jade Beatriz </dd>
-                    <dd> Joyce Coqueiro </dd>
-                    <dd> Lucas Inácio </dd>
-                </dl>
+        <div class = "infos">
+            <h1 class="cor-titulo" id="titulo1"> Sobre o What IF <a href="#redirect"> <button class="close" id="close"> &times; </button> </a></h1>
+            <div id="conteudo">
+                <p> O What IF é um chatbot  - um bot que conversa com você. Seu objetivo é responder suas dúvidas iminentes e frequentes sobre nossa instituição, o IF Baiano campus Guanambi. </p> <br>
+                <p> Seja você um novo aluno, professor, funcionário ou visitante, é comum que fique confuso diante do porte do IF, com suas instalações, funcionamento e demais aspectos. </p> <br>
+                <p> Por isso, não se preocupe tanto! O nosso bot foi desenvolvido justamente para sanar suas dúvidas e te auxiliar na sua estadia. Experimente perguntas como “Onde fica a sala 15?”, “Como funciona o refeitório?”, “A grama é de verdade ou sintética?”, entre outras.</p>
+
+                <div class="feedback">
+                    <form method="" action=""> 
+                        <input type="text" name="feedback" class="input" placeholder="Tem alguma dúvida ou feedback sobre o What IF? Conte-nos!" required>
+                        <input id="butt" type="submit" value="Enviar" />
+                    </fom>
+                </div>
             </div>
-        <div id="conteudo-right">
-            <p> Projeto realizado com </br> fins avaliativos para a </br> disciplina de Projeto Integrador II, tendo </br> como orientador o professor Eber Chagas. </p>
-        </div>
-        <div id="conteudo-bottom">
-                <h4 class="cor-titulo"> Deixe seu FeedBack! </h4> </br> 
-                <p> Estamos abertos para sugestões: </p> </br>
-                <p> chatbot.whatif@gmail.com </p> 
-                <a href="https://www.ifbaiano.edu.br/unidades/guanambi/" target="_blank"><img id="imgif" src="imgs/ife.jpg"/></a>
+            <div id = "rodape">
+                <p> Projeto realizado com fins avaliativos para a disciplina de Projeto Integrador II, tendo como orientador o professor Eber Chagas. </p>
+                <p> Responsáveis: Bruno Malheiros, Daniel Alves, Emanuelly Maurício, Jade Beatriz, Joyce Coqueiro, Lucas Inácio. </p>
+                <br>
+                <div id="rod1">
+                    <p> Email para contato: chatbot.whatif@gmail.com </p> 
+                    <p id="if-link"> Instituto Federal Baiano, Campus Guanambi - 2021 <a href="https://www.ifbaiano.edu.br/unidades/guanambi/" target="blank"> ➚ </a> </p>
+                </div>
             </div> 
         </div>
     </div>

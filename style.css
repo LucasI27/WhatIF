@@ -199,12 +199,11 @@ html,body{
 #modal:target{
     display:grid;
     animation: modal .5s;
-    
 }
 
-#creditos{
-    width: 29vw;
-    height: 70vh;
+.infos{
+    width: 90vw;
+    height: 90vh;
     margin-left: 1vw;
     font-size: 2.7vh;
     border-radius: 50px;
@@ -212,44 +211,100 @@ html,body{
     background-color: white;
 }
 
-#conteudo-left{ 
-    width: 13vw;
-    height: 25vh;
-    margin-top: 4vh;
-    margin-left: .5vw;
-    float: left;
-    color: #313131;
-    text-align: center;
-
+#titulo1{
+    width: 85vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
 }
 
-#conteudo-right{
-    width:13vw;
-    height:25vh;
-    margin-top: 4vh;
-    margin-right: 0.5vw;
-    float: right;
-    color: #313131;
-    text-align:left;
+#conteudo{
+    width: 85vw;
+    height: 60vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 3.5vh;
+    justify-content: center;
+    line-height: 5vh;
+    text-indent: 2vw;
+}
+
+.feedback{
+    display: flex;
+}
+
+.feedback .input{
+    width: 76vw;
+    height: 7vh;
+    margin-top: 3vh;
+    margin-left: 0vw;
+    text-indent: 1vw;
+    color:#534949;
+    font-size: 3vh;
+    border-radius: 17px;
+    border: 1px solid #868686;
+    outline: none;
+}
+
+.feedback .input:hover{
+    pointer-events: auto;
+
+}
+.feedback .input:focus{
+    border-color: #009380;
+}
+.feedback .input:focus::placeholder{
+    color: #bfbfbf;
+}
+
+.feedback #butt{
+    width: 6.5vw;
+    height: 7vh;
+    color: rgb(255, 255, 255);
+    background: rgb(18 90 133);
+    font-size: 3vh;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 17px;
+    border: 1px solid rgb(18 90 133);
+    transition: all 0.3s ease;
+}
+
+.feedback .input:valid ~ #butt{
+    opacity: 1;
+    pointer-events: auto;
+}
+.feedback .input #butt:hover{
+    background: #498db8;
 }
 
 
-#conteudo-bottom{
-    width: 20vw;
-    height: 17vh;
-    margin-top: 30vh;
-    margin-left: 5vw;
-    margin-right: 75vw;
-    text-align: center;
+#rodape{
+    width: 85vw;
+    height: 15vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-family: 'Product Sans', sans-serif;
+    color: #868686;
+    font-style: italic;
+    font-size:medium;
+}
+
+#rod1{
+    display: flex;
+}
+
+#if-link{
+    margin-left: 30vw;
 }
 
 .cor-titulo{
-    color: #0F547F;}
-
-#titulo1{
-    width: 24vw;
-    margin-top: 2.5vh;
-    margin-left: 2vw;
+    color: #0F547F;
 }
 
 #imgif{
