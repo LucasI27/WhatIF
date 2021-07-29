@@ -1,3 +1,8 @@
+<?php
+
+require_once 'feedback.php';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -52,9 +57,9 @@
                 <p> Por isso, não se preocupe tanto! O nosso bot foi desenvolvido justamente para sanar suas dúvidas e te auxiliar na sua estadia. Experimente perguntas como “Onde fica a sala 15?”, “Como funciona o refeitório?”, “A grama é de verdade ou sintética?”, entre outras.</p>
 
                 <div class="feedback">
-                    <form method="" action=""> 
+                    <form method="POST" action="bot.php"> 
                         <input type="text" name="feedback" class="input" placeholder="Tem alguma dúvida ou feedback sobre o What IF? Conte-nos!" required>
-                        <input id="butt" type="submit" value="Enviar" />
+                        <input id="butt" type="submit" name='envf' />
                     </fom>
                 </div>
             </div>
