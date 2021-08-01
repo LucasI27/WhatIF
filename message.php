@@ -1,6 +1,9 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "bot") or die("Database Error");
+header("content-type: text/html;charset=utf-8");
+
+$conn = mysqli_connect("localhost", "root", "", "bot1") or die("Database Error");
+mysqli_set_charset($conn, 'utf8');
 
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
 
@@ -12,11 +15,13 @@ if(mysqli_num_rows($run_query) > 0){
     $replay = $fetch_data['replies'];
     echo $replay;
 
-}else if($_POST['text'] == "teste"){
-    echo "Deu certo";
-
 }else{
     echo "Desculpa, não consigo entender, tente fazer uma pergunta mais simples.";
 }
+
+$conn->query("SET NAMES 'utf8'");
+$conn->query("SET character_set_conection=utf8");
+$conn->query("SET character_set_queries=utf8");
+$conn->query("SET character_set_replies=utf8");
 
 ?>
