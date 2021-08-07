@@ -8,6 +8,28 @@
 }
 
 
+::-webkit-scrollbar-track
+{
+    margin-top: 3vh;
+	border: 5px solid #ffffff00;
+	border-color: transparent;
+	background-color: #ffffff00;
+}
+
+::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: #ff000000;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #125A85;
+	border-radius: 10px;
+}
+
+
+
 
 
 
