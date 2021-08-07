@@ -2,7 +2,7 @@
 
 header("content-type: text/html;charset=utf-8");
 
-$conn = mysqli_connect("localhost", "root", "", "bot1") or die("Database Error");
+$conn = mysqli_connect("localhost", "root", "", "bot") or die("Database Error");
 mysqli_set_charset($conn, 'utf8');
 
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);

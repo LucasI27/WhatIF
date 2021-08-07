@@ -9,7 +9,6 @@ if (isset($_POST['envf']) && !empty($_POST['envf'])) {
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     if (!$conn->prepare($sql)) {
-        echo 'cu';
         echo mysqli_error($conn);
     }
 }
